@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/vidduu/devops-automation.git'
+                git 'https://github.com/vidduu/CI_CD_Pipeline.git'
             }
         }
         stage('Build') {
